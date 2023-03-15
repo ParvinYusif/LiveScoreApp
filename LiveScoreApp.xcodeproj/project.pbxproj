@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB93E3129B7A88600070E70 /* RegistrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB93E3029B7A88600070E70 /* RegistrController.swift */; };
+		DBBBE00E29BC825C00283D16 /* StructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBE00D29BC825C00283D16 /* StructFile.swift */; };
+		DBBBE01029BC83B100283D16 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBE00F29BC83B100283D16 /* MainController.swift */; };
+		DBC5B51C29B33D9400112B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51B29B33D9400112B03 /* AppDelegate.swift */; };
+		DBC5B51E29B33D9400112B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */; };
+		DBC5B52029B33D9400112B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51F29B33D9400112B03 /* ViewController.swift */; };
+		DBC5B52329B33D9400112B03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B52129B33D9400112B03 /* Main.storyboard */; };
+		DBC5B52629B33D9400112B03 /* LiveScoreApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B52429B33D9400112B03 /* LiveScoreApp.xcdatamodeld */; };
+		DBC5B52829B33D9600112B03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B52729B33D9600112B03 /* Assets.xcassets */; };
+		DBC5B52B29B33D9600112B03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC5B52929B33D9600112B03 /* LaunchScreen.storyboard */; };
+		DBC5B53629B33D9600112B03 /* LiveScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B53529B33D9600112B03 /* LiveScoreAppTests.swift */; };
+		DBC5B54029B33D9600112B03 /* LiveScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B53F29B33D9600112B03 /* LiveScoreAppUITests.swift */; };
+		DBC5B54229B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B54129B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBC5B53229B33D9600112B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5B51029B33D9400112B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5B51729B33D9400112B03;
+			remoteInfo = LiveScoreApp;
+		};
+		DBC5B53C29B33D9600112B03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBC5B51029B33D9400112B03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBC5B51729B33D9400112B03;
+			remoteInfo = LiveScoreApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB93E3029B7A88600070E70 /* RegistrController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrController.swift; sourceTree = "<group>"; };
+		DBBBE00D29BC825C00283D16 /* StructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFile.swift; sourceTree = "<group>"; };
+		DBBBE00F29BC83B100283D16 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		DBC5B51829B33D9400112B03 /* LiveScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5B51B29B33D9400112B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBC5B51F29B33D9400112B03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DBC5B52229B33D9400112B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DBC5B52529B33D9400112B03 /* LiveScoreApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LiveScoreApp.xcdatamodel; sourceTree = "<group>"; };
+		DBC5B52729B33D9600112B03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBC5B52A29B33D9600112B03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBC5B52C29B33D9600112B03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBC5B53129B33D9600112B03 /* LiveScoreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveScoreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5B53529B33D9600112B03 /* LiveScoreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreAppTests.swift; sourceTree = "<group>"; };
+		DBC5B53B29B33D9600112B03 /* LiveScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBC5B53F29B33D9600112B03 /* LiveScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreAppUITests.swift; sourceTree = "<group>"; };
+		DBC5B54129B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBC5B51529B33D9400112B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B52E29B33D9600112B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B53829B33D9600112B03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBC5B50F29B33D9400112B03 = {
+			isa = PBXGroup;
+			children = (
+				DBC5B51A29B33D9400112B03 /* LiveScoreApp */,
+				DBC5B53429B33D9600112B03 /* LiveScoreAppTests */,
+				DBC5B53E29B33D9600112B03 /* LiveScoreAppUITests */,
+				DBC5B51929B33D9400112B03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBC5B51929B33D9400112B03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5B51829B33D9400112B03 /* LiveScoreApp.app */,
+				DBC5B53129B33D9600112B03 /* LiveScoreAppTests.xctest */,
+				DBC5B53B29B33D9600112B03 /* LiveScoreAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC5B51A29B33D9400112B03 /* LiveScoreApp */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5B51B29B33D9400112B03 /* AppDelegate.swift */,
+				DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */,
+				DBC5B51F29B33D9400112B03 /* ViewController.swift */,
+				DBB93E3029B7A88600070E70 /* RegistrController.swift */,
+				DBBBE00F29BC83B100283D16 /* MainController.swift */,
+				DBBBE00D29BC825C00283D16 /* StructFile.swift */,
+				DBC5B52129B33D9400112B03 /* Main.storyboard */,
+				DBC5B52729B33D9600112B03 /* Assets.xcassets */,
+				DBC5B52929B33D9600112B03 /* LaunchScreen.storyboard */,
+				DBC5B52C29B33D9600112B03 /* Info.plist */,
+				DBC5B52429B33D9400112B03 /* LiveScoreApp.xcdatamodeld */,
+			);
+			path = LiveScoreApp;
+			sourceTree = "<group>";
+		};
+		DBC5B53429B33D9600112B03 /* LiveScoreAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5B53529B33D9600112B03 /* LiveScoreAppTests.swift */,
+			);
+			path = LiveScoreAppTests;
+			sourceTree = "<group>";
+		};
+		DBC5B53E29B33D9600112B03 /* LiveScoreAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBC5B53F29B33D9600112B03 /* LiveScoreAppUITests.swift */,
+				DBC5B54129B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift */,
+			);
+			path = LiveScoreAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBC5B51729B33D9400112B03 /* LiveScoreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5B54529B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreApp" */;
+			buildPhases = (
+				DBC5B51429B33D9400112B03 /* Sources */,
+				DBC5B51529B33D9400112B03 /* Frameworks */,
+				DBC5B51629B33D9400112B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveScoreApp;
+			productName = LiveScoreApp;
+			productReference = DBC5B51829B33D9400112B03 /* LiveScoreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBC5B53029B33D9600112B03 /* LiveScoreAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5B54829B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreAppTests" */;
+			buildPhases = (
+				DBC5B52D29B33D9600112B03 /* Sources */,
+				DBC5B52E29B33D9600112B03 /* Frameworks */,
+				DBC5B52F29B33D9600112B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5B53329B33D9600112B03 /* PBXTargetDependency */,
+			);
+			name = LiveScoreAppTests;
+			productName = LiveScoreAppTests;
+			productReference = DBC5B53129B33D9600112B03 /* LiveScoreAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBC5B53A29B33D9600112B03 /* LiveScoreAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBC5B54B29B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreAppUITests" */;
+			buildPhases = (
+				DBC5B53729B33D9600112B03 /* Sources */,
+				DBC5B53829B33D9600112B03 /* Frameworks */,
+				DBC5B53929B33D9600112B03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBC5B53D29B33D9600112B03 /* PBXTargetDependency */,
+			);
+			name = LiveScoreAppUITests;
+			productName = LiveScoreAppUITests;
+			productReference = DBC5B53B29B33D9600112B03 /* LiveScoreAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBC5B51029B33D9400112B03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					DBC5B51729B33D9400112B03 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					DBC5B53029B33D9600112B03 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DBC5B51729B33D9400112B03;
+					};
+					DBC5B53A29B33D9600112B03 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = DBC5B51729B33D9400112B03;
+					};
+				};
+			};
+			buildConfigurationList = DBC5B51329B33D9400112B03 /* Build configuration list for PBXProject "LiveScoreApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBC5B50F29B33D9400112B03;
+			productRefGroup = DBC5B51929B33D9400112B03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBC5B51729B33D9400112B03 /* LiveScoreApp */,
+				DBC5B53029B33D9600112B03 /* LiveScoreAppTests */,
+				DBC5B53A29B33D9600112B03 /* LiveScoreAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBC5B51629B33D9400112B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5B52B29B33D9600112B03 /* LaunchScreen.storyboard in Resources */,
+				DBC5B52829B33D9600112B03 /* Assets.xcassets in Resources */,
+				DBC5B52329B33D9400112B03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B52F29B33D9600112B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B53929B33D9600112B03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBC5B51429B33D9400112B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5B52029B33D9400112B03 /* ViewController.swift in Sources */,
+				DBBBE01029BC83B100283D16 /* MainController.swift in Sources */,
+				DBC5B51C29B33D9400112B03 /* AppDelegate.swift in Sources */,
+				DBBBE00E29BC825C00283D16 /* StructFile.swift in Sources */,
+				DBB93E3129B7A88600070E70 /* RegistrController.swift in Sources */,
+				DBC5B52629B33D9400112B03 /* LiveScoreApp.xcdatamodeld in Sources */,
+				DBC5B51E29B33D9400112B03 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B52D29B33D9600112B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5B53629B33D9600112B03 /* LiveScoreAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBC5B53729B33D9600112B03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC5B54029B33D9600112B03 /* LiveScoreAppUITests.swift in Sources */,
+				DBC5B54229B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBC5B53329B33D9600112B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5B51729B33D9400112B03 /* LiveScoreApp */;
+			targetProxy = DBC5B53229B33D9600112B03 /* PBXContainerItemProxy */;
+		};
+		DBC5B53D29B33D9600112B03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBC5B51729B33D9400112B03 /* LiveScoreApp */;
+			targetProxy = DBC5B53C29B33D9600112B03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBC5B52129B33D9400112B03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC5B52229B33D9400112B03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DBC5B52929B33D9600112B03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBC5B52A29B33D9600112B03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBC5B54329B33D9600112B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBC5B54429B33D9600112B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBC5B54629B33D9600112B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveScoreApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBC5B54729B33D9600112B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiveScoreApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBC5B54929B33D9600112B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveScoreApp";
+			};
+			name = Debug;
+		};
+		DBC5B54A29B33D9600112B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveScoreApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveScoreApp";
+			};
+			name = Release;
+		};
+		DBC5B54C29B33D9600112B03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveScoreApp;
+			};
+			name = Debug;
+		};
+		DBC5B54D29B33D9600112B03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.miniprojekt.LiveScoreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveScoreApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBC5B51329B33D9400112B03 /* Build configuration list for PBXProject "LiveScoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5B54329B33D9600112B03 /* Debug */,
+				DBC5B54429B33D9600112B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5B54529B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5B54629B33D9600112B03 /* Debug */,
+				DBC5B54729B33D9600112B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5B54829B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5B54929B33D9600112B03 /* Debug */,
+				DBC5B54A29B33D9600112B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBC5B54B29B33D9600112B03 /* Build configuration list for PBXNativeTarget "LiveScoreAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBC5B54C29B33D9600112B03 /* Debug */,
+				DBC5B54D29B33D9600112B03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DBC5B52429B33D9400112B03 /* LiveScoreApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DBC5B52529B33D9400112B03 /* LiveScoreApp.xcdatamodel */,
+			);
+			currentVersion = DBC5B52529B33D9400112B03 /* LiveScoreApp.xcdatamodel */;
+			path = LiveScoreApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DBC5B51029B33D9400112B03 /* Project object */;
+}
