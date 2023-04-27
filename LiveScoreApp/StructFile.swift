@@ -18,3 +18,4 @@ struct Registr: Codable {
     let password: String
     let phonenumber: String
 }
+

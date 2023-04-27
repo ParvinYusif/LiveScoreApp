@@ -1,13 +1,13 @@
 //
-//  MainController.swift
+//  ProfileController.swift
 //  LiveScoreApp
 //
-//  Created by pervın on 11.03.23.
+//  Created by pervın on 30.03.23.
 //
 
 import UIKit
 
-class MainController: UIViewController {
+class ProfileController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

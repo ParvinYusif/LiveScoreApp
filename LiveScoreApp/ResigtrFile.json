@@ -1,0 +1,20 @@
+/* 
+  ResigtrFile.json
+  LiveScoreApp
+
+  Created by pervın on 21.03.23.
+  
+*/
+[
+    {
+        "mail": "String",
+        "password": "String"
+    },
+    {
+        "email": "String",
+        "name": "String",
+        "password": "String",
+        "phonenumber": "String"
+      
+    }
+]

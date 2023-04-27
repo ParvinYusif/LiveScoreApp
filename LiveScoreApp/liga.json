@@ -1,0 +1,129 @@
+/* 
+  liga.json
+  LiveScoreApp
+
+  Created by pervın on 31.03.23.
+  
+*/
+
+{
+    "data": {
+        "countries": [
+            {
+                "countryName": "Azerbaycan",
+                "leagues": [
+                    {
+                        "leaugeName": "Topaz Premier League",
+                        "clubs": [
+                            {
+                                "clubName": "Qarabag",
+                            },
+                            {
+                                "clubName": "Neftchi",
+                            },
+                            {
+                                "clubName": "Kepez",
+                            },
+                            {
+                                "clubName": "Sabah",
+                            },
+                            {
+                                "clubName": "Sebail",
+                            },
+                            {
+                                "clubName": "Kesle",
+                            },
+                            {
+                                "clubName": "Zire",
+                            }
+                        ]
+                    },
+                    {
+                        "leaugeName": "First Division",
+                        "clubs": [
+                            {
+                                "clubName": "Neftci Baku 2",
+                            },
+                            {
+                                "clubName": "Gabala 2",
+                            },
+                            {
+                                "clubName": "Turan 2",
+                            },
+                            {
+                                "clubName": "Sabail 2",
+                            },
+                            {
+                                "clubName": "Zaqatala",
+                            },
+                            {
+                                "clubName": "Lokbatan",
+                            },
+                            {
+                                "clubName": "Qarabag 2",
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "countryName": "Turkiye",
+                "leagues": [
+                    {
+                        "leaugeName": "Turkiye Super Leauge",
+                        "clubs": [
+                            {
+                                "clubName": "Beshiktash",
+                            },
+                            {
+                                "clubName": "Fenerbahce",
+                            },
+                            {
+                                "clubName": "Galatasaray",
+                            },
+                            {
+                                "clubName": "Trabzonspor",
+                            },
+                            {
+                                "clubName": "Konyaspor",
+                            },
+                            {
+                                "clubName": "Adanaspor",
+                            },
+                            {
+                                "clubName": "Sivasspor",
+                            }
+                        ]
+                    },
+                    {
+                        "leaugeName": "TFF LIG 1",
+                        "clubs": [
+                            {
+                                "clubName": "Sakaryaspor",
+                            },
+                            {
+                                "clubName": "Erzurumspor",
+                            },
+                            {
+                                "clubName": "Rizespor",
+                            },
+                            {
+                                "clubName": "Denizlispor",
+                            },
+                            {
+                                "clubName": "Boluspor",
+                            },
+                            {
+                                "clubName": "Gençlerbirliği",
+                            },
+                            {
+                                "clubName": "Yeni Malatyaspor",
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
+    

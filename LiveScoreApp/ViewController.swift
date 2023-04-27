@@ -30,9 +30,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func loginButton(_ sender: Any) {
+        if let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+           let sceneDelegate = scene.delegate as? SceneDelegate {
+            UserDefaults.standard.set(true, forKey: "loggedIn")
+            sceneDelegate.setSecondRootController(windowscene: scene)
+        }
         if let email = emailTextField.text, !email.isEmpty,
            let password = passwordTextField.text, !password.isEmpty {
-            let controller = storyboard?.instantiateViewController(withIdentifier: "MainController") as! MainController
+            let controller = storyboard?.instantiateViewController(withIdentifier: "MainTabBarController") as! MainTabBarController
             navigationController?.show(controller, sender: nil)
         }
     }

@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3A0E2A29D98B2B00128522 /* CountryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A0E2929D98B2B00128522 /* CountryVM.swift */; };
+		DB3A0E2C29D98FD900128522 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A0E2B29D98FD900128522 /* ListCell.swift */; };
+		DB94246A29CA1DE1003EB2A0 /* ResigtrFile.json in Resources */ = {isa = PBXBuildFile; fileRef = DB94246929CA1DE1003EB2A0 /* ResigtrFile.json */; };
+		DB97337F29CB588D0051C7F7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB97337E29CB588D0051C7F7 /* MainTabBarController.swift */; };
+		DBA4368A29D70CCA00403448 /* liga.json in Resources */ = {isa = PBXBuildFile; fileRef = DBA4368929D70CCA00403448 /* liga.json */; };
+		DBA4368C29D7148000403448 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4368B29D7148000403448 /* Model.swift */; };
+		DBA4368E29D71B6A00403448 /* ClubsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4368D29D71B6A00403448 /* ClubsController.swift */; };
+		DBA4369029D71EED00403448 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4368F29D71EED00403448 /* JsonParser.swift */; };
+		DBB14C5029D5CBF30077E814 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB14C4F29D5CBF30077E814 /* ProfileController.swift */; };
 		DBB93E3129B7A88600070E70 /* RegistrController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB93E3029B7A88600070E70 /* RegistrController.swift */; };
 		DBBBE00E29BC825C00283D16 /* StructFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBE00D29BC825C00283D16 /* StructFile.swift */; };
-		DBBBE01029BC83B100283D16 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBBE00F29BC83B100283D16 /* MainController.swift */; };
+		DBC1E72829CEE6950060B5C7 /* LigaVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC1E72729CEE6950060B5C7 /* LigaVIewController.swift */; };
 		DBC5B51C29B33D9400112B03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51B29B33D9400112B03 /* AppDelegate.swift */; };
 		DBC5B51E29B33D9400112B03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */; };
 		DBC5B52029B33D9400112B03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B51F29B33D9400112B03 /* ViewController.swift */; };
@@ -20,6 +29,8 @@
 		DBC5B53629B33D9600112B03 /* LiveScoreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B53529B33D9600112B03 /* LiveScoreAppTests.swift */; };
 		DBC5B54029B33D9600112B03 /* LiveScoreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B53F29B33D9600112B03 /* LiveScoreAppUITests.swift */; };
 		DBC5B54229B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC5B54129B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift */; };
+		DBC6C21229CC5E0400D9F2E5 /* LiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6C21129CC5E0400D9F2E5 /* LiveController.swift */; };
+		DBC6C21429CC5E1800D9F2E5 /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC6C21329CC5E1800D9F2E5 /* CountryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +51,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB3A0E2929D98B2B00128522 /* CountryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryVM.swift; sourceTree = "<group>"; };
+		DB3A0E2B29D98FD900128522 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		DB94246929CA1DE1003EB2A0 /* ResigtrFile.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ResigtrFile.json; sourceTree = "<group>"; };
+		DB97337E29CB588D0051C7F7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		DBA4368929D70CCA00403448 /* liga.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = liga.json; sourceTree = "<group>"; };
+		DBA4368B29D7148000403448 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DBA4368D29D71B6A00403448 /* ClubsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubsController.swift; sourceTree = "<group>"; };
+		DBA4368F29D71EED00403448 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		DBB14C4F29D5CBF30077E814 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		DBB93E3029B7A88600070E70 /* RegistrController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrController.swift; sourceTree = "<group>"; };
 		DBBBE00D29BC825C00283D16 /* StructFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructFile.swift; sourceTree = "<group>"; };
-		DBBBE00F29BC83B100283D16 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		DBC1E72729CEE6950060B5C7 /* LigaVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigaVIewController.swift; sourceTree = "<group>"; };
 		DBC5B51829B33D9400112B03 /* LiveScoreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveScoreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC5B51B29B33D9400112B03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +77,8 @@
 		DBC5B53B29B33D9600112B03 /* LiveScoreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveScoreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC5B53F29B33D9600112B03 /* LiveScoreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreAppUITests.swift; sourceTree = "<group>"; };
 		DBC5B54129B33D9600112B03 /* LiveScoreAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveScoreAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DBC6C21129CC5E0400D9F2E5 /* LiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveController.swift; sourceTree = "<group>"; };
+		DBC6C21329CC5E1800D9F2E5 /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +133,19 @@
 				DBC5B51D29B33D9400112B03 /* SceneDelegate.swift */,
 				DBC5B51F29B33D9400112B03 /* ViewController.swift */,
 				DBB93E3029B7A88600070E70 /* RegistrController.swift */,
-				DBBBE00F29BC83B100283D16 /* MainController.swift */,
 				DBBBE00D29BC825C00283D16 /* StructFile.swift */,
+				DB97337E29CB588D0051C7F7 /* MainTabBarController.swift */,
+				DB94246929CA1DE1003EB2A0 /* ResigtrFile.json */,
+				DBC6C21129CC5E0400D9F2E5 /* LiveController.swift */,
+				DBC6C21329CC5E1800D9F2E5 /* CountryController.swift */,
+				DBA4368929D70CCA00403448 /* liga.json */,
+				DBA4368F29D71EED00403448 /* JsonParser.swift */,
+				DB3A0E2929D98B2B00128522 /* CountryVM.swift */,
+				DB3A0E2B29D98FD900128522 /* ListCell.swift */,
+				DBA4368B29D7148000403448 /* Model.swift */,
+				DBC1E72729CEE6950060B5C7 /* LigaVIewController.swift */,
+				DBA4368D29D71B6A00403448 /* ClubsController.swift */,
+				DBB14C4F29D5CBF30077E814 /* ProfileController.swift */,
 				DBC5B52129B33D9400112B03 /* Main.storyboard */,
 				DBC5B52729B33D9600112B03 /* Assets.xcassets */,
 				DBC5B52929B33D9600112B03 /* LaunchScreen.storyboard */,
@@ -243,8 +276,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB94246A29CA1DE1003EB2A0 /* ResigtrFile.json in Resources */,
 				DBC5B52B29B33D9600112B03 /* LaunchScreen.storyboard in Resources */,
 				DBC5B52829B33D9600112B03 /* Assets.xcassets in Resources */,
+				DBA4368A29D70CCA00403448 /* liga.json in Resources */,
 				DBC5B52329B33D9400112B03 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,13 +305,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3A0E2A29D98B2B00128522 /* CountryVM.swift in Sources */,
 				DBC5B52029B33D9400112B03 /* ViewController.swift in Sources */,
-				DBBBE01029BC83B100283D16 /* MainController.swift in Sources */,
+				DB97337F29CB588D0051C7F7 /* MainTabBarController.swift in Sources */,
 				DBC5B51C29B33D9400112B03 /* AppDelegate.swift in Sources */,
+				DBA4368C29D7148000403448 /* Model.swift in Sources */,
+				DB3A0E2C29D98FD900128522 /* ListCell.swift in Sources */,
+				DBC6C21429CC5E1800D9F2E5 /* CountryController.swift in Sources */,
+				DBC6C21229CC5E0400D9F2E5 /* LiveController.swift in Sources */,
 				DBBBE00E29BC825C00283D16 /* StructFile.swift in Sources */,
 				DBB93E3129B7A88600070E70 /* RegistrController.swift in Sources */,
+				DBB14C5029D5CBF30077E814 /* ProfileController.swift in Sources */,
+				DBA4368E29D71B6A00403448 /* ClubsController.swift in Sources */,
 				DBC5B52629B33D9400112B03 /* LiveScoreApp.xcdatamodeld in Sources */,
 				DBC5B51E29B33D9400112B03 /* SceneDelegate.swift in Sources */,
+				DBA4369029D71EED00403448 /* JsonParser.swift in Sources */,
+				DBC1E72829CEE6950060B5C7 /* LigaVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
